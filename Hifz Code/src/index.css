@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'QPC Uthmani Hafs';
+  src: url('https://quran-images.s3.ap-south-1.amazonaws.com/QPC-Uthmani-Hafs-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-arabic {
+  font-family: 'QPC Uthmani Hafs', serif;
+  font-feature-settings: 'kern' 1;
+}
